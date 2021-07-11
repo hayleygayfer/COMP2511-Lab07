@@ -46,7 +46,7 @@ Inside `src/random`, in `Game.java` there are is an unimplemented functions name
 
 There are two constructors for the class; one for testing where the `random` attribute is seeded with the given value, and a default constructor which uses the current time as the seed. The default constructor is for real usage (for example, the `main` method we have provided). 
 
-When the `Random` object is constructed with a seed of `4`, the following values are the results first 8 calls to `.nextInt(100)`
+When the `Random` object is constructed with a seed of `4`, the following values are the results first 8 calls to `.nextInt(100)`:
 
 ```
 62 52 3 58 67 5 11 46
@@ -159,7 +159,7 @@ Your task is to firstly write the declaration for the `Rational` class inside `R
 
 Your class should support creating any valid rational number with a numerator and denominator.
 
-The number ²/₃ is created as `Rational frac = new Rational(2, 3)`
+The number ²/₃ is created as `Rational frac = new Rational(2, 3)`.
 
 You do not need to handle zero denominators or any cases of division by zero.
 
