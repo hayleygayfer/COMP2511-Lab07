@@ -6,7 +6,7 @@
 
 ## Aim
 
-* Learn how to unit test random functions
+* Learn how to unit test randomised functions
 * Apply the Composite Pattern
 * Apply Design By Contract
 
@@ -66,7 +66,7 @@ For `0`:
 
 * Write at least 2 unit tests for `battle` inside `GameTest.java` using seeds. 
 * Once you have done this, implement the function.
-* How would you write tests for `Game` with the default constructor that prove the `battle` function works as expected? Write your answer down in `random.md`.
+* How would you write tests for `Game` with the default constructor that prove the `battle` function works as expected? Think about this and be prepared to answer during marking. You can write your answer down in `random.md`.
 
 ## Lab 07 - Exercise - Boolean Logic
 

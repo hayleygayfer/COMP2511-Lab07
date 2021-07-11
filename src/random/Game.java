@@ -1,9 +1,6 @@
 package random;
 
-import java.time.Instant;
-import java.util.Calendar;
 import java.util.Random;
-import java.util.TimeZone;
 
 /**
  * A simple game, where a hero engages in battles.
@@ -19,7 +16,7 @@ public class Game {
     }
 
     public Game() {
-        this(Calendar.getInstance(TimeZone.getTimeZone("UTC")).getTimeInMillis());
+        this(System.currentTimeMillis());
     }
 
     public boolean battle() {
