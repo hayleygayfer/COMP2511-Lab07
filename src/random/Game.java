@@ -20,7 +20,14 @@ public class Game {
     }
 
     public boolean battle() {
-        // TODO
+        int chance = random.nextInt(100);
+
+        if (chance >= 50) {
+            return true;
+        } else if (chance < 50) {
+            return false;
+        }
+
         return false;
     }
 
